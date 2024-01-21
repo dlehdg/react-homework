@@ -1,0 +1,13 @@
+
+.line-banner {
+  display: block;
+  /* padding: 40px 0; */
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../public/images/main/line-banner.jpg");
+  width: 1050px;
+  height: 140px;
+  margin: 40px auto;
+}
+
+

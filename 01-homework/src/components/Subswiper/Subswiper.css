@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.swiper-button-prev2 {
+  justify-content: center;
+  align-items: center;
+  opacity: 1 !important;
+  color: white;
+  top: 55% !important;
+}
+
+
+
+.swiper-button-next2 {
+  justify-content: center;
+  align-items: center;
+  opacity: 1 !important;
+  color: white;
+  top: 55% !important;
+
+}
+
+
+.today-products {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* background: skyblue; */
+  padding-top: 2.5rem;
+  padding-bottom: 60px;
+}
+
+.today-products-list {
+  
+  width: 1024px;
+  top: 0;
+  left: 0;
+}
+
+.today-products-title {
+  color: var(--content, #333);
+  margin-top: 52px;
+  margin-bottom: 40px;
+  /* Heading/XL */
+  font-family: Pretendard;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; 
+  /* 39.802px */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+
+.today-card {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.brnad {
+  color: var(--content, #333);
+
+/* Paragraph/Medium */
+font-family: Pretendard;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+}
+
+.desc {
+  color: var(--content, #333);
+
+/* Paragraph/Medium */
+font-family: Pretendard;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+}
+
+.discount {
+  color: var(--accent-yellow, #FA622F);
+
+/* Label/Large */
+font-family: Pretendard;
+font-size: 21.328px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 31.992px */
+}
+
+.price {
+  color: var(--content, #333);
+
+/* Label/Large */
+font-family: Pretendard;
+font-size: 21.328px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 31.992px */
+}
+
+.real-price {
+  /* color: var(--gray-400, #898989);
+
+font-family: Pretendard;
+font-size: 12.003px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; */
+
+color: var(--content, #898989);
+
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 300;
+line-height: 150%;
+text-decoration: line-through;
+}
+

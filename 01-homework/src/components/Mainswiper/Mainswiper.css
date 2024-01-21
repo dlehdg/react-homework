@@ -1,0 +1,39 @@
+.swiper-button-prev {
+  justify-content: center;
+  align-items: center;
+  opacity: 1 !important;
+  color: white;
+  top: 15% !important;
+  display: none;
+}
+
+
+
+.swiper-button-next {
+  justify-content: center;
+  align-items: center;
+  opacity: 1 !important;
+  color: white;
+  top: 15% !important;
+
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-pagination {
+  background-color: gray;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+  color: white !important;
+
+  width: 60px !important;
+  /* width: auto; */
+  left: 90% !important;
+
+}
+
