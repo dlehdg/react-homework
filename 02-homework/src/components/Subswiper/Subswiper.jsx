@@ -8,7 +8,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-function Subswiper({ itemlist }) {
+import itemlist from "../../data/itemlist.json";
+
+function Subswiper() {
   return (
     <div>
       <div className="today-products-title">이 상품 어때요?</div>
