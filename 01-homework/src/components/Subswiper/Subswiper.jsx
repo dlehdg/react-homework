@@ -18,7 +18,7 @@ function Subswiper({ itemlist }) {
           className="swiper2"
           slidesPerView={4}
           slidesPerGroup={4}
-          spaceBetween={100}
+          spaceBetween={10}
           modules={[Pagination, Navigation]}
           navigation={{
             nextEl: ".next-slide-button2",
