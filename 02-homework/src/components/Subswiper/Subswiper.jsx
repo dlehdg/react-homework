@@ -11,6 +11,8 @@ import "swiper/css/navigation";
 import itemlist from "../../data/itemlist.json";
 
 function Subswiper() {
+  const { items } = itemlist;
+
   return (
     <div>
       <div className="today-products-title">이 상품 어때요?</div>
@@ -34,7 +36,7 @@ function Subswiper() {
           autoplay={{ delay: 5000 }}
           loop={true}
         >
-          {itemlist.map((item) => (
+          {items.map((item) => (
             <SwiperSlide key={item.desc}>
               <div className="today-card">
                 <figure>
